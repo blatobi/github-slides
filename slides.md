@@ -12,8 +12,7 @@ revealOptions:
   backgroundTransition: 'fade'
 ---
 
-# reveal-md & github-pages
+# github Brownbag - II
 
-{{1_getStarted.md}}
-{{2_writing.md}}
-{{3_extras.md}}
+{{1_bisher.md}}
+{{2_heute.md}}
