@@ -1,3 +1,4 @@
+<!--s-->
 # Heute
 * Packages in github bereit stellen
   * als Container-Image
