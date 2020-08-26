@@ -15,107 +15,75 @@
     <div class="reveal">
       <div class="slides"><section  data-markdown><script type="text/template">
 
-# reveal-md & github-pages
+# github Brownbag - II
 
 </script></section><section  data-markdown><script type="text/template">
-## github-pages + reveal-md = awesome
-
-* write your slides in markdown <!-- .element: class="fragment" data-fragment-index="0" -->
-* commit them to github <!-- .element: class="fragment" data-fragment-index="1" -->
-* get them automatically deployed <!-- .element: class="fragment" data-fragment-index=2" -->
-
-</script></section><section  data-markdown><script type="text/template">
-## get started
-
-* just press this nice & friendly green button
-![nice & friendly green button](img/1_pressButton.png)
+## Was bisher geschah
+* Management von Projekten und Teams
+* beispielhafter Entwicklungsprozess inkl. Code-Review
+* automatische Builds
+  * Workflows
+  * Actions
+  * Build-Matrix
 
 </script></section><section  data-markdown><script type="text/template">
-## get started
+## Management von Projekten und Teams
 
-* give your new repo a name
-* keep it public! (or git will deny to publish it)
-
-</script></section><section  data-markdown><script type="text/template">
-## get started
-
-* choose 'gh-pages' to be the public-branch
-![settings](img/2_settings.png)
+* payfree.io-Organisation
+![teams](img/teams.png)
 
 </script></section><section  data-markdown><script type="text/template">
-## get started
+## Preismodell
 
-* choose 'gh-pages' to be the public-branch by:
-  * first switching to master
-  * and then switching back to gh-pages
-  * github-bug? ¯\\_(ツ)_/¯
+![pricing](img/pricing.png)
 
 </script></section><section  data-markdown><script type="text/template">
-![settings](img/3_selectBranch.png)
+## Entwicklungsprozess & Code-Review
 
-</script></section><section  data-markdown><script type="text/template">
-## writing content
+* repository psychic-disco
+* Restriktionen auf Branches
+* Code-Review
+![code-review](img/code-review.png)
 
-* edit the markdown-file `slides.md`
-* find all configurations on [reveal-md](https://github.com/gaerfield/reveal-md-github-pages)
+## automatische Builds
 
-</script></section><section  data-markdown><script type="text/template">
-## Customizations
+* Workflows
+![workflow1](img/workflow1.png)
 
-* I changed a whee-bit the defaults
+## automatische Builds
 
-</script></section><section  data-markdown><script type="text/template">
-## Customizations - CSS
+* Workflows
+![workflow2](img/workflow2.png)
 
-* custom.css has some additional configs (who needs borders around pictures)
-* just remove the content, if it not suits you
-* but keep the file, or the build will fail
+## automatische Builds
 
-</script></section><section  data-markdown><script type="text/template">
-## Customizations - includes
+* Workflows
+* Actions
+![actions](img/actions.png)
 
-* the presentation is split up into multiple documents
-* useful for large presentations
-* an include is defined by
+## automatische Builds
 
-   `{{path/to/include.md}}`
+* Workflows
+* Actions
+* Matrix-Builds
+![actions](img/matrix1.png)
 
-</script></section><section  data-markdown><script type="text/template">
-## Customizations - plantuml
+## automatische Builds
 
-* I really like diagrams
-````
-``` puml
-A -> B
-```
-````
+* Workflows
+* Actions
+* Matrix-Builds
+![actions](img/matrix2.png)
 
-will become
-
-<img src='https://g.gravizo.com/svg?@startuml;A -> B;@enduml'/>
-
-</script></section><section  data-markdown><script type="text/template">
-## Customizations - plantuml
-
-* check [plantuml](https://plantuml.com/) for more details
-* or even better: [the hitchhikers guide to plantuml](https://crashedmind.github.io/PlantUMLHitchhikersGuide/)
-
-</script></section><section  data-markdown><script type="text/template">
-## Customizations
-
-* included scripts are configured in includes.js
-* clear the content, if customizations not needed (but keep the file!)
-* never read the following files:
-  * `scripts/fileInclude.js`
-  * `scripts/pumlpreprocessor.js`
-* I know, they are open-source, but they are also crappy
-* Me not good is in javascript
-
-</script></section><section  data-markdown><script type="text/template">
-
-# The End
-
-have fun ;)
+# Heute
+* Packages in github bereit stellen
+  * als Container-Image
+  * als Maven-Artefakt
+* Releases bereit stellen
+  * manuell workflows (builds) triggern
+* github-Pages
+  * statische Inhalte im CDN von github ssl-verschlüsselt anbieten
+  * am Beispiel einer Präsentation
 
 </script></section></div>
     </div>
