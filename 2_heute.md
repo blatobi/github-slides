@@ -6,5 +6,5 @@
 * Releases bereit stellen
   * manuell workflows (builds) triggern
 * github-Pages
-  * statische Inhalte im CDN von github ssl-verschlüsselt anbieten
+  * statische Inhalte im CDN von github ssl-abgesichert anbieten
   * am Beispiel einer Präsentation
