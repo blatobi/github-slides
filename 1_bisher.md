@@ -24,34 +24,45 @@
 * repository psychic-disco
 * Restriktionen auf Branches
 * Code-Review
+
 ![code-review](img/code-review.png)
 
+<!--s-->
 ## automatische Builds
 
 * Workflows
+
 ![workflow1](img/workflow1.png)
 
+<!--s-->
 ## automatische Builds
 
 * Workflows
+
 ![workflow2](img/workflow2.png)
 
+<!--s-->
 ## automatische Builds
 
 * Workflows
 * Actions
+
 ![actions](img/actions.png)
 
+<!--s-->
 ## automatische Builds
 
 * Workflows
 * Actions
 * Matrix-Builds
+
 ![actions](img/matrix1.png)
 
+<!--s-->
 ## automatische Builds
 
 * Workflows
 * Actions
 * Matrix-Builds
+
 ![actions](img/matrix2.png)
